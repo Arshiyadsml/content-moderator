@@ -1,0 +1,68 @@
+{
+  "HAR-001": {
+    "title": "No violent content",
+    "description": "Content depicting, glorifying, or inciting violence against people or groups",
+    "examples": [
+      "Graphic descriptions of physical assault",
+      "Calls to harm specific communities",
+      "Detailed instructions for causing harm"
+    ],
+    "severity": 5,
+    "category": "violence"
+  },
+  "HAR-002": {
+    "title": "No hate speech or harassment",
+    "description": "Content targeting individuals or groups with abusive language, slurs, or dehumanizing comparisons",
+    "examples": [
+      "Ethnic or religious slurs",
+      "Coordinated harassment campaigns",
+      "Dehumanizing statements about protected groups"
+    ],
+    "severity": 5,
+    "category": "harassment"
+  },
+  "SPM-001": {
+    "title": "No spam or platform manipulation",
+    "description": "Repetitive, deceptive, or manipulative content designed to game platform systems",
+    "examples": [
+      "Engagement-baiting headlines",
+      "Cross-posting identical content at scale",
+      "Phishing links or deceptive URLs"
+    ],
+    "severity": 2,
+    "category": "spam"
+  },
+  "PRI-001": {
+    "title": "No private information sharing",
+    "description": "Posting personally identifiable information (PII) without consent (doxing)",
+    "examples": [
+      "Publishing someone's home address",
+      "Sharing financial account details",
+      "Leaking private medical or legal records"
+    ],
+    "severity": 4,
+    "category": "privacy"
+  },
+  "MIS-001": {
+    "title": "No health misinformation",
+    "description": "False or misleading health claims that could cause direct harm",
+    "examples": [
+      "Unproven cancer treatments",
+      "Vaccine safety misinformation",
+      "Dangerous supplement recommendations"
+    ],
+    "severity": 3,
+    "category": "misinformation"
+  },
+  "ADU-001": {
+    "title": "No sexual or adult content",
+    "description": "Sexually explicit imagery or text not marked as NSFW",
+    "examples": [
+      "Pornographic images",
+      "Sexually explicit written content",
+      "Non-consensual intimate imagery"
+    ],
+    "severity": 4,
+    "category": "adult"
+  }
+}
