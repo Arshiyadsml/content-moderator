@@ -1,6 +1,6 @@
 # AI Multimodal Content Moderator
 
-Production-grade content moderation system using LangGraph, RAG, and Claude 3.5 Sonnet.
+"I built a production-grade content moderation system using LangGraph, RAG, and Claude. It processes multimodal content, uses semantic policy search, and includes formal evaluation harness with 100-example labeled dataset."
 
 ## Architecture
 
