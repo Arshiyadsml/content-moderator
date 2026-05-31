@@ -12,7 +12,7 @@ def test_eval_dataset_loads():
     assert eval_file.exists()
     with open(eval_file) as f:
         lines = [json.loads(l) for l in f if l.strip()]
-    assert len(lines) == 100
+    assert len(lines) == 110
     assert lines[0]["id"] == "eval_001"
 
 def test_eval_dataset_valid_format():
