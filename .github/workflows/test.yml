@@ -24,4 +24,6 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run tests
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: pytest tests/ -v
