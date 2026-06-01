@@ -18,3 +18,4 @@ build/
 *.swo
 *~
 .env.local
+scripts/local_eval.py
