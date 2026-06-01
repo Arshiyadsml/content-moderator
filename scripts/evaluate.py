@@ -1,4 +1,4 @@
-# Run evaluation on 100-example dataset
+# Run evaluation on 110-example dataset
 
 import sys
 sys.path.insert(0, '.')
